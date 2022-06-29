@@ -1,7 +1,7 @@
 {
     "name": "TG Members Adder",
     "description": "The Telegram file renamer bot based on Pyrogram.",
-    "logo": "https://telegra.ph/file/8324a0863fed98d4dfb6c.jpg",
+    "logo": "https://telegra.ph/file/9ba212f7cd33c00f55f99.jpg",
 
     "keywords": [
         "telegram",
@@ -11,7 +11,7 @@
     ],
 
     "repository": "https://github.com/MoviesWorlds/adder",
-    "stack": "heroku-20",
+    "stack": "heroku-22",
     "website": "https://github.com/MoviesWorlds",
     "success_url": "https://t.me/EsmUpload_bot",
 
@@ -23,7 +23,7 @@
             "description": "Your API_ID, Get it from https://my.telegram.org/"
         },
         "export_updates_channel": {
-            "description": "list of Auth users who can access bot without password and have rights to use admin commands",
+            "description": "For Your Updates Channel",
             "required": false
         },
        
