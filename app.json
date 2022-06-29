@@ -13,22 +13,20 @@
     "repository": "https://github.com/MoviesWorlds/adder",
     "stack": "heroku-22",
     "website": "https://github.com/MoviesWorlds",
-    "success_url": "https://t.me/EsmUpload_bot",
-
+    "success_url": "http://t.me/+LFS3S9RT-_4zNWFl",
     "env": {
-        "export_api_id": {
-            "description": "Your API_HASH, Get it from https://my.telegram.org/"
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
         },
-        "export_api_hash": {
-            "description": "Your API_ID, Get it from https://my.telegram.org/"
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
         },
-        "export_updates_channel": {
-            "description": "For Your Updates Channel",
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather XD"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
             "required": false
-        },
-       
-        "export_bot_token": {
-            "description": "Get it from @BotFather"
         }
         
     },
