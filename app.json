@@ -29,7 +29,7 @@
        
         "export_bot_token": {
             "description": "Get it from @BotFather"
-        },
+        }
         
     },
 
